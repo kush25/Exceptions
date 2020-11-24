@@ -5,6 +5,8 @@ public class CustomExcep {
 		
 		public static void valid(int age) throws UserException {
 			
+			System.out.println("Hello");
+			
 			if(age<18) 
 			throw new UserException("Invalid Age");
 			
